@@ -13,6 +13,7 @@ import Services from './mycomponents/services';
 import Presupuesto from './mycomponents/presupuesto';
 import Inform from './mycomponents/inform';
 import Inform2 from './mycomponents/infor2';
+import Respon from './mycomponents/respon';
 
 
 function App() {
@@ -27,6 +28,8 @@ function App() {
         <Route path="/presupuesto" element={ <Presupuesto/>} />
         <Route path="/inform" element={ <Inform/>} />
         <Route path="/infor2" element={ <Inform2/>} />
+        <Route path="/res" element={ <Respon/>} />
+
         
         
       </Routes>

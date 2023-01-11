@@ -17,7 +17,7 @@ export const ContactUs = () => {
     else{
     emailjs.sendForm('service_pcsn8mh', 'template_d3vpty5', form.current,'BAQfm91UiiOueWDHb')
       .then((result) => {
-       const goToLoginPage = () => navigate('/');
+       const goToLoginPage = () => navigate('/res');
        goToLoginPage();
       }, (error) => {
           console.log(error.text);
