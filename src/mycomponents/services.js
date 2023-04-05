@@ -32,7 +32,7 @@ export default class Services extends Component {
         
          <h2 style={{textAlign:"center"}}>Servicios</h2>
          <dl>
-             <dt><li style={{fontSize:30,color:"blue"}}>Desorollo Web</li></dt>
+             <dt><li style={{fontSize:30,color:"blue"}}>DESARROLLO WEB</li></dt>
          <dd style={{fontSize:20}}>DISEÑEMOS PAGINAS WEB EN DIFERENTES TECNOLOGÍAS POR DEMANDA DEl CLIENTE Y PONGAMOS EN SERVIDOR (Domain ,hosting todo)
          </dd>
              <dt><li style={{fontSize:30,color:"blue"}}>APLICACIONES DE MOVILES</li></dt>
